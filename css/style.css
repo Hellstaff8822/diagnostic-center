@@ -199,12 +199,10 @@ html._theme .header__a {
 
 html._theme .services__desc {
   color: #fff;
-  font: var(--Paragraph);
 }
 
 html._theme .doctor__desc {
   color: #fff;
-  font: var(--Paragraph);
 }
 
 html._theme .header__search input {
@@ -846,6 +844,14 @@ html._theme #icon-night-mode {
   border-radius: 20rem;
   padding: 44rem 38rem;
   background: var(--Terciary);
+}
+@media (max-width: 576px) {
+  .doctor-item {
+    padding: 40rem 30rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 .doctor-item__info {
   display: -webkit-box;

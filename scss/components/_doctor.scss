@@ -41,6 +41,10 @@
   border-radius: 20rem;
   padding: 44rem 38rem;
   background: var(--Terciary);
+  @include mobile {
+    padding: 40rem 30rem;
+    align-items: center;
+  }
 
   &__info {
     display: flex;
