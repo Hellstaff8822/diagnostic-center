@@ -203,12 +203,20 @@ html._theme .header__a:hover {
   color: var(--c-primary);
 }
 
+html._theme .services-item {
+  background: #9ba3ac;
+}
+
+html._theme .services-item:hover {
+  background: var(--c-primary);
+}
+
 html._theme .services__desc {
   color: #fff;
 }
 
-html._theme .doctor__desc {
-  color: #fff;
+html._theme .doctor-item {
+  background: #9ba3ac;
 }
 
 html._theme .header__search input {
