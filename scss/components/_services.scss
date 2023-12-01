@@ -1,0 +1,109 @@
+.services {
+  padding-top: 111rem;
+  padding-bottom: 111rem;
+
+  @include mobile {
+    padding-bottom: 80rem;
+  }
+
+  &__title {
+    text-align: center;
+    color: var(--Paragraph);
+    font: var(--Heading-2);
+    margin-bottom: 70rem;
+    @include mobile {
+      font-size: 40rem;
+      margin-bottom: 35rem;
+    }
+  }
+
+  &__desc {
+    margin-inline: auto;
+    text-align: center;
+    max-width: 837rem;
+    color: var(--c-Paragraph);
+    font: var(--Paragraph);
+    @include mobile {
+      font-size: 15rem;
+    }
+  }
+
+  &__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30rem;
+    margin-top: 123rem;
+    @include mobile {
+      margin-top: 50rem;
+    }
+
+    @include tablet {
+      grid-template-columns: 1fr 1fr;
+    }
+    @include mobile {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+.services-item {
+  background: var(--Terciary);
+  padding: 48rem 26rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15rem;
+  transition: var(--transition);
+  &:hover {
+    background: var(--c-primary);
+  }
+  &:hover &__title {
+    color: white;
+  }
+
+  &:hover &__desc {
+    color: white;
+  }
+
+  &:hover &__more {
+    color: white;
+  }
+
+  &:hover &__learn {
+    color: white;
+  }
+  &:hover .material-icons {
+    color: white;
+  }
+
+  &__title {
+    color: var(--c-Paragraph);
+    font: var(--Heading-4);
+    margin-bottom: 17rem;
+  }
+
+  &__desc {
+    text-align: center;
+    max-width: 318rem;
+    color: #575757;
+    font: var(--Paragraph);
+    margin-bottom: 18rem;
+  }
+  &__trans {
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+  }
+
+  &__learn {
+    color: var(--c-primary);
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration-line: underline;
+  }
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  color: var(--c-primary);
+}

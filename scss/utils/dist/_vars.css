@@ -1,0 +1,19 @@
+:root {
+  --html-fs: 1px;
+  --ff: "Work Sans", sans-serif;
+  --transition: 0.2s all ease-in-out;
+  --c-primary: #8842f0;
+  --c-text-white: #fff;
+  --c-border: #eee;
+  --Text: #575757;
+  --black: #000;
+  --Terciary: #f9f1fe;
+  --c-Paragraph: #262626;
+  --Heading-2: 700 48rem / normal var(--ff);
+  --Heading-3: 700 36rem / normal var(--ff);
+  --Heading-4: 600 24rem / normal var(--ff);
+  --Link: 400 16rem / normal var(--ff);
+  --Paragraph: 400 16rem / normal var(--ff);
+  --Input: 400 14rem / normal var(--ff);
+  --Button: 600 20rem / normal var(--ff);
+}

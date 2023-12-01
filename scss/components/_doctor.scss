@@ -1,0 +1,107 @@
+.doctor {
+  &__title {
+    text-align: center;
+    color: var(--Paragraph);
+    font: var(--Heading-2);
+    margin-bottom: 70rem;
+    @include mobile {
+      font-size: 40rem;
+      margin-bottom: 40rem;
+    }
+  }
+
+  &__desc {
+    margin-inline: auto;
+    text-align: center;
+    max-width: 837rem;
+    color: var(--c-Paragraph);
+    font: var(--Paragraph);
+    @include mobile {
+      font-size: 15rem;
+    }
+  }
+
+  &__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 27rem;
+    margin-top: 123rem;
+    @include tablet {
+      grid-template-columns: 1fr 1fr;
+    }
+    @include mobile {
+      grid-template-columns: 1fr;
+      margin-top: 50rem;
+    }
+  }
+}
+.doctor-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20rem;
+  padding: 44rem 38rem;
+  background: var(--Terciary);
+
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 13rem;
+    margin-bottom: 25rem;
+  }
+
+  &__role {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  &__img {
+  }
+
+  &__title {
+    color: var(--c-Paragraph);
+    font: var(--Button);
+    @include mobile {
+      font-size: 18rem;
+    }
+  }
+
+  &__subtitle {
+    color: var(--Text);
+    font: var(--Paragraph);
+  }
+
+  &__desc {
+    color: var(--Text);
+    font: var(--Paragraph);
+    margin-bottom: 28rem;
+    max-width: 293rem;
+    text-align: center;
+    @include mobile {
+      font-size: 15rem;
+    }
+  }
+
+  &__btn {
+    text-align: center;
+    border-radius: 50px;
+    background: var(--c-primary);
+    font: var(--Button);
+    color: var(--Terciary);
+    padding: 11rem 49rem;
+    transition: var(--transition);
+    &:hover {
+      opacity: 0.9;
+    }
+    @include desktop-small {
+      padding: 11rem 44rem;
+    }
+    @include tablet {
+      padding: 11rem 40rem;
+    }
+    @include mobile {
+      font-size: 18rem;
+      padding: 11rem 43rem;
+    }
+  }
+}

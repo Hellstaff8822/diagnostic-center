@@ -1,0 +1,114 @@
+html {
+  font-size: var(--html-fs);
+}
+
+body {
+  font-size: 16rem;
+  font-family: var(--ff);
+}
+
+html._overflow {
+  overflow: hidden;
+}
+html._overflow body {
+  overflow: hidden;
+}
+
+.container {
+  max-width: calc(1170rem + 40rem);
+  padding: 20rem;
+  margin-inline: auto;
+}
+
+html._theme {
+  background-color: #272727;
+  color: #fff;
+  transition: background-color 0.5s ease;
+}
+
+html._theme .header__logo {
+  color: #fff;
+  font: var(--Heading-4);
+}
+
+html._theme .header__a {
+  color: #fff;
+  font: var(--Link);
+}
+
+html._theme .services__desc {
+  color: #fff;
+  font: var(--Paragraph);
+}
+
+html._theme .doctor__desc {
+  color: #fff;
+  font: var(--Paragraph);
+}
+
+html._theme .header__search input {
+  background: #eee;
+  font: var(--Input);
+}
+
+html._theme .header__search input::-webkit-input-placeholder {
+  color: #000;
+}
+
+html._theme .icon_search {
+  color: #000;
+}
+
+html._theme .footer {
+  background-color: #000;
+}
+
+html._theme .footer__logo {
+  color: #fff;
+  font: var(--Heading-4);
+}
+
+html._theme .footer__desc {
+  color: #fff;
+  font: var(--Paragraph);
+}
+
+html._theme .footer-info__title {
+  color: #fff;
+  font: var(--Button);
+}
+
+html._theme .footer-info__value {
+  color: #fff;
+  font: var(--Paragraph);
+}
+
+html._theme .footer-info__value a {
+  color: #fff;
+}
+
+html._theme .footer-info__value a:hover {
+  color: var(--c-primary);
+}
+
+html._theme .footer-hours__title {
+  color: #fff;
+  font: var(--Button);
+}
+
+html._theme .footer-hours__value {
+  color: #fff;
+  font: var(--Paragraph);
+}
+
+html._theme #icon-light-mode {
+  display: none;
+}
+
+html._theme #icon-night-mode {
+  display: inline-block;
+}
+
+.material-icons {
+  cursor: pointer;
+}
