@@ -32,6 +32,11 @@ html._theme .header__logo {
 html._theme .header__a {
   color: #fff;
   font: var(--Link);
+  transition: var(--transition);
+}
+html._theme .header__a:hover {
+  color: var(--c-primary);
+  
 }
 
 html._theme .services__desc {
