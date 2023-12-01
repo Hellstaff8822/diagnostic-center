@@ -160,6 +160,7 @@ ul {
 
 html {
   font-size: var(--html-fs);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -227,6 +228,10 @@ html._theme .footer {
 html._theme .footer__logo {
   color: #fff;
   font: var(--Heading-4);
+}
+
+html._theme .footer__logo:hover {
+  color: var(--c-primary);
 }
 
 html._theme .footer__desc {

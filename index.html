@@ -20,24 +20,24 @@
 
   <body>
     <div class="container">
-      <header class="header">
+      <header id="home" class="header">
         <a href="/" class="header__logo">Quiro Diagnostic Center</a>
         <div class="header__nav">
           <ul class="header__ul" id="headerUl">
             <li class="header__li">
-              <a class="header__a _active" href="/">Home</a>
+              <a class="header__a _active" href="#home">Home</a>
             </li>
             <li class="header__li">
-              <a class="header__a" href="/">Service</a>
+              <a class="header__a" href="#services">Service</a>
             </li>
             <li class="header__li">
-              <a class="header__a" href="/">Doctors</a>
+              <a class="header__a" href="#doctor">Doctors</a>
             </li>
             <li class="header__li">
-              <a class="header__a" href="/">Gallery</a>
+              <a class="header__a" href="#gallery">Gallery</a>
             </li>
             <li class="header__li">
-              <a class="header__a" href="/">Contact</a>
+              <a class="header__a" href="#contact">Contact</a>
             </li>
 
             <span class="material-icons icon-close" onclick="navToggle()"
@@ -68,7 +68,7 @@
           <span class="material-icons icon_search">search</span>
         </div>
       </header>
-      <div class="owl-carousel owl-theme">
+      <div id="gallery" class="owl-carousel owl-theme">
         <div class="carousel-img">
           <img src="./img/carousel1.png" alt="carousel" />
         </div>
@@ -80,7 +80,7 @@
         </div>
       </div>
 
-      <div class="services">
+      <div id="services" class="services">
         <div class="services__title">Our Services</div>
         <div class="services__desc">
           Magnis facilisis tortor volutpat lobortis ac id. Libero enim nunc
@@ -143,7 +143,7 @@
         </div>
       </div>
 
-      <div class="doctor">
+      <div id="doctor" class="doctor">
         <div class="doctor__title">Choose Your Specialist Doctor</div>
         <div class="doctor__desc">
           Magnis facilisis tortor volutpat lobortis ac id. Libero enim nunc
@@ -288,7 +288,7 @@
       </form>
     </div>
 
-    <footer class="footer">
+    <footer id="contact" class="footer">
       <div class="container footer__container">
         <div class="footer__col footer__brand">
           <a href="/" class="footer__logo">Quiro Diagnostic Center</a>
